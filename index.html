@@ -5,22 +5,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hotel.ng</title>
-  <link rel="stylesheet" href="hotel.css">
+  <link rel="stylesheet" href="../css/hotel.css">
 </head>
 <body>
   <nav class="navbar">
     <div class="navContainer">
-        <div class="navbarHeader">
-          <button class="logoButton"></button>
+          <!-- <button class="logoButton"></button> -->
           <a href="../pages/hotel.html" class="hngLogo">
-            <img src="https://hotels.ng/media/v7/img/logo/logo.svg#hng-logo" alt="" class="navbarlogo">
+            <h3 class="hngLogoText">hotels.ng</h3>
+            <!--<img src="https://hotels.ng/media/v7/img/logo" alt="" class="navbarLogo">
+            <svg style="height: 50px;">
+              <use xl ink:href="https://hotels.ng/media/v7/img/logo/logo.svg#hng-logo" class="navbarLogo"></use>
+            </svg>-->
           </a>
-        </div>
         <ul class="navbarRight">
           <li class="navbarDropdown">
             <a href="" class="whatsappLink">
               <span class="whatsappLinkImg">
-                <img src="https://hotels.ng/media/v7/img/header.svg#hng-whatsapp" alt="" class="whatsappImg">
+                <img src="../images/whatsapp.png" alt="" class="whatsappImg">
               </span>
             </a>
           </li>
@@ -28,11 +30,10 @@
             <div>
               <div class="navbarContactImgContainer">
                 <img alt="call center image" class="contactImg" src="https://static.hotels.ng/v7/img/navbar-contact-min.jpg">
-                <img alt="call center image" class="contact-img-sm" src="https://static.hotels.ng/v7/img/phone-icon.svg">
+                <!-- <img alt="call center image" class="contact-img-sm" src="https://static.hotels.ng/v7/img/phone-icon.svg"> -->
               </div>
-              <div class="dropdown">
+              <!-- <div class="dropdown">
                 <button class="dropdownRight">
-                  <span class="dropdownRightContactText">You can call us to book your hotel</span>
                   <span class="dropdownRightContactNumber">+234 700 880 8800</span>
                   <span class="dropdownRightSpace"></span>
                 </button>
@@ -68,27 +69,24 @@
                     </a>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </li>
           <li class="navbarDropdownCurrency">
-            <div class="dropdownCurrency">
+            <div class="">
               <button class="dropdownCurrency">
-                <img alt="Country Icon" src="https://static.hotels.ng/v7/img/flags/naira.svg" />
-                <span class="dropdownCurrencySign"></span>
+                <img alt="Country Icon" src="https://static.hotels.ng/v7/img/flags/naira.svg" class="currency-img"/>
+                <span class="dropdownCurrencySign">N</span>
                 <span class="dropdownCurrencyIcon">
-                  <img src="https://hotels.ng/media/v7/img/icons.svg#hng-arrow-down-b" alt="">
-                </span>
+                  <svg class="hng-arrow-down-b icon-xs"><use xlink:href="https://hotels.ng/media/v7/img/icons.svg#hng-arrow-down-b"></use></svg>                </span>
               </button>
-              <div class="dropdownMenu">
+              <!-- <div class="dropdownMenu">
                 <div class="dropdownCaption">Choose your preferred currency for the hotel rates:</div>
                 <a href="" class="dropdownLink">
                   
                   <span class="marginRight"></span>
                   Nigerian Naira
-                </a>
-              </div>
-              <div>
+                </a><div>
                 <a href="" class="dropdownLinkEuro">
                   <span class="marginRight"></span>
                   European Euro
@@ -108,19 +106,21 @@
                   British Pound Sterling 
                 </a>
               </div>
+              </div> -->
+              
             </div>
           </li>
           <li class="navbarDropdownAccount">
             <span class="userAvatar">
               <div class="userAvatarIcon">
-                <img src="https://static.hotels.ng/v7/img/default.svg" alt="Account Avatar">
+                <img src="images/userIcon.svg" alt="Account Avatar">
               </div>
             </span>
             <button class="userAccountSignin">
               <span class="userAccountText">Account</span>
               <span class="buttonIcon"></span>
             </button>
-            <div class="dropdownMenu">
+            <!-- <div class="dropdownMenu">
               <div class="content">
                 <p class="content1"></p>
                 <a href=""></a>
@@ -129,13 +129,40 @@
                   <a href="">Sign up</a>
                 </p>
               </div>
-            </div>
+            </div> -->
           </li>
         </ul>
     </div>
   </nav>
   <div class="homepage">
-    
+    <div class="backgroundImg">
+      <!-- <img src="images/v7-homepage1.jpg" alt="background Image"> -->
+      <div class="overlay">
+        <div class="container">
+          <h1 class="h1">Find and book hotels in Nigeria.</h1>
+          <h2>Search through 13,098 hotels in Nigeria</h2>
+        </div>
+      </div>
+    </div>
+    <div class="homepage">
+      <div class="searchFormContainer">
+        <form action="">
+          <div class="searchFieldContainer">
+            <div class="searchPlace">
+              <div class="inputPlaceholder">
+                <div class="placeholderIcon">
+                  <svg class="hng-search">
+                    <use xlink:href="https://hotels.ng/media/v7/img/icons.svg#hng-search"></use></svg>
+                </div>
+                <input type="text" placeholder="Search for a city or particular hotel" style="width: 400px; height: 40px;">
+                <input type="text" placeholder="Search for a city or particular hotel" style="width: 400px; height: 40px;">
+              </div>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
   </div>
   
 </body>
