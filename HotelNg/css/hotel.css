@@ -1,0 +1,196 @@
+body{
+
+    font: 16px/1.5em;
+    background: #fff;
+    margin: 0;
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: inherit;
+   font-family: lato;   
+} 
+
+.navbar {
+    height: 60px;
+    background-color: #00aeff;
+    color: #fff;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 0;
+    padding: 0 3%;
+    margin-bottom: 0!important;
+}
+.navbar .navContainer {
+    padding-right: 0!important;
+}
+
+.navContainer{
+    position: relative;
+    height: 60px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar .logoButton {
+    border: 0;
+    margin-top: 15px;
+    margin-right: 12px;
+}
+
+.logoButton {
+    position: relative;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.hngLogo{
+    position: absolute;
+    height: 50px;
+    top: 20px;
+    text-decoration: none;
+    font-style: oblique;
+
+}
+.hngLogoText{
+    height: 35px;
+    width: 120px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+.navbarLogo{
+    width: 90px;
+    height: 32px;
+    right: 0;
+    top: 0;
+    position: relative;
+}
+
+
+.navbarRight{
+    /* position: absolute; */
+    margin-left: auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    width: 620px;
+    height: 60px;
+    /* right: 0;
+    top: 0; */
+    /* overflow: hidden; */
+
+}
+.navbarDropdown{
+    margin-left: 8px;
+    margin-right: 7px;
+    height: 60px;
+    width: 50px;
+    align-content: center;
+
+}
+.whatsappLink{
+    height: 60px;
+}
+.whatsappImg{
+    /* position: absolute; */
+    /* top: 20px; */
+}
+.navbarDropdownRightcontact{
+    /* position: absolute; */
+}
+.navbarContactImgContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbarContactImgContainer img{
+
+    height: 30px;
+    width: 30px;
+
+} 
+
+.userAvatarIcon{
+    height: 30px;
+    width: 30px;
+}
+
+.navbarDropdownAccount{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dropdownCurrency{
+    display: flex;
+    align-items: center;
+}
+.dropdownCurrency .currency-img{
+    height: 30px;
+    width: 30px;
+}
+
+
+.dropdownCurrencyIcon svg{
+    height: 15px;
+    width: 15px;
+}
+.backgroundImg{
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/v7-homepage1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+
+}
+
+.backgroundImg .overlay{
+    text-align: center;
+    padding-top: 140px;
+    justify-content: space-evenly;
+
+}
+.h1{
+    font-size: 40px;
+}
+.homepageSearch{
+    position: relative;
+    top: -50px;
+}
+
+.searchFormContainer{
+    position: sticky ;
+    height: 120px;
+    width: 900px;
+    background-color: #fff;
+    left: 200px;
+    top: -80px;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    box-shadow: 0 4px 15px rgb(0 0 0 / 20%);
+
+}
+.suggestedDestination{
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    height: 280px;
+
+}
+
